@@ -1,0 +1,330 @@
+<!-- Html
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Voyage Hotel</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Top-bar -->
+        <div class="top-bar">
+
+            <div class="content-topbar">
+
+                <!-- Logo -->
+                <img src="assets/hotel-voyage.png" alt="The Hotel Voyage" class="logo">
+                    
+                <!-- Navbar -->
+
+                <ul class="navbar">
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Rooms</a></li>
+                    <li><a href="">Dining</a></li>
+                    <li><a href="">Spa</a></li>
+                    <li><a href="">Offers</a></li>
+                    <li><a href="">Gallery</a></li>
+                </ul>
+
+                <div class="profile"></div>
+                <div class="button-book">BOOK A STAY</div>
+                
+            </div>        
+        </div>
+
+            
+            <div class="hero">
+
+                <h1 class="satu">EXPERIENCE<br>PARADISE</h1>
+                <p>Your Serene Escape on the Ball Coastline.<br>Discover unparalleled luxury and breathtaking ocean views.</p>
+                
+            </div>
+
+            <!-- Search bar -->
+            <div class="search-room">
+                <div class="bl inout">
+                    Check-In/Check-Out
+                    <div>Check-In/Check-Out</div>
+                </div>
+                <div class="bl guests">
+                    Guest
+                    <div>Guest</div>
+                </div>
+                <div class="bl roomtype">
+                    Room Type
+                    <div>Room Type</div>
+                </div>
+                <div class="searchnow">Search Now</div>
+            </div>
+
+            <!-- Content -->
+            <div class="main-content">
+                <div class="rooms-lounge">
+                    <div class="exclusive-suites">
+
+                        <div class="es r1">
+
+                            <img src="assets/es1.png" alt="Ocean Villa">
+                            
+                            <h2>Ocean Villa</h2>
+                        </div>
+
+                        <div class="es r2">
+
+                            <img src="assets/es2.png" alt="Horizon Suite">
+                            <h2>Horizon Suite</h2>
+
+                        </div>
+
+                        <div class="es r3">
+
+                            <img src="assets/es3.png" alt="Garden Deluxe">
+                            <h2>Garden Deluxe</h2>
+
+                        </div>
+                    </div>
+
+                    <div class="lounge">
+                        <div class="lou l1">
+                            <img src="assets/l1.png" alt="">
+                        </div>
+                        <div class="lou l2">
+                            <img src="assets/l2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services">
+
+                </div>
+                
+            </div>
+
+            
+
+            <!-- Footer -->
+            <div class="footer">
+                <!-- The Voyage Hotel -->
+            </div>
+
+
+
+
+        
+    </div>    
+</body>
+</html>
+
+
+css
+/* CSS Reset */
+/* 1. Use a more-intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+*:not(dialog) {
+  margin: 0;
+}
+
+/* 3. Enable keyword animations */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    interpolate-size: allow-keywords;
+  }
+}
+
+
+/* Style */
+
+/* color : deep teal (002B49), warm mustard (CFA96E), 
+creamy beige (F5F0E1), cool gray (8796A1), dark gold (#53C43) */
+
+* {
+  font-family: 'Plus Jakarta Sans', sans-serif;;
+}
+
+.container {
+  background-color: #F5F0E1;
+}
+
+.top-bar {
+  width: 100%;
+  height: 50px;
+  background-color: #F5F0E1;
+  position: fixed;
+  padding: 10px 0;
+  top: 0;
+  left: 0;
+}
+
+.content-topbar {
+  width: 900px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.logo {
+  float: left;
+}
+
+.navbar {
+  float: left;
+  margin-left: 80px;
+}
+
+.navbar li {
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 15px;
+}
+
+.navbar li a {
+  color: #002b49;
+  text-decoration: none;
+}
+
+.button-book {
+  height: 30px;
+  width: 105px;
+  background-color: #CFA96E;
+  font-size: 12px;
+  float: right;
+  margin-right: 10px;
+  padding: 5px 0;
+  text-align: center;
+}
+
+.profile {
+  background-color: #8796A1;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  float: right;
+}
+
+.hero {
+  background-image: url(assets/hero.jpg);
+  width: 100%;
+  height: 450px;
+  background-size: cover;
+  background-position: 0 -300px;
+  margin-top: 50px;
+  padding-top: 70px;
+  padding-left: 120px;
+}
+
+.hero h1 {
+  font-size: 40px;
+  color: white;
+  font-weight: bold;
+}
+
+.hero p {
+  font-size: 15px;
+  color:white;
+  font-weight: lighter;
+}
+
+.search-room {
+  width: 800px;
+  height: 70px;
+  background-color: #002b49;
+  margin: 0 auto;
+  position: relative;
+  top: -35px;
+  padding-left: 20px;
+  padding-top: 10px;
+}
+
+.search-room .bl div{
+  width: 140px;
+  height: 25px;
+  background-color: white;
+  color: black;
+  margin-top: 5px;
+  padding: 5px 0;
+}
+
+.search-room .bl {
+  float: left;
+  margin-right: 20px;
+  font-size: 12px;
+  color: white;
+}
+
+.search-room .searchnow {
+  height: 30px;
+  width: 200px;
+  background-color: #CFA96E;
+  color: black;
+  float: right;
+  margin-right: 20px;
+  margin-top: 12px;
+  text-align: center;
+  padding: 5px 0;
+}
+
+.main-content {
+  width: 800px;
+  margin: 20px auto;
+}
+
+.exclusive-suites {
+  float: left;
+}
+
+.lounge {
+  float: right;
+}
+
+.exclusive-suites .es {
+  float: left;
+  margin-right: 20px;
+  /* background-color: white; */
+}
+
+.rooms-lounge h2 {
+  font-size: 10px;
+}
+
+.lounge .lou {
+  float: left;
+  margin-left: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+} -->

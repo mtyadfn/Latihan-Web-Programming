@@ -1,0 +1,245 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #F5F0E1;
+}
+
+/* Navbar */
+
+.navbar {
+    width: 100%;
+    height: 40px;
+    background-color: #F5F0E1;
+    position: fixed;
+    padding: 5px 150px;
+    align-items: center;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+}
+
+.navbar .logo {
+    float: left;
+    display: block;
+    width: 91px;
+    height: 30px;
+    background-image: url(../img/hotel-voyage.png);
+    text-indent: -9999px;
+}
+
+.navbar ul {
+    float: left;
+    margin: 0 120px;
+}
+
+.navbar li {
+    display: inline;
+}
+
+.navbar ul li a {
+    color: #002B49;
+    text-decoration: none;
+    margin-right: 20px;
+}
+
+.navbar .book {
+    float: left;
+    display: block;
+    background-color: #CFA96E;
+    color: white;
+    font-size: 10px;
+    text-decoration: none;
+    width: 85px;
+    height: 20px;
+    padding: 2px;
+    border-radius: 2px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.navbar .profile {
+    float: left;
+    display: block;
+    width: 25px;
+    height: 25px;
+    text-indent: -9999px;
+    background-image: url(../img/profile.png);
+    margin-left: 20px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Hero */
+
+.hero {
+    width: 100%;
+    height: 450px;
+    background-image: url(../img/hero.jpg);
+    background-size: cover;
+    background-position: 0 -200px;
+    margin-top: 50px;
+    padding-left: 80px;
+    padding-top: 80px;
+    box-sizing: border-box;
+}
+
+.hero h1, .hero p {
+    color: #F5F0E1;
+}
+
+.hero h1 {
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 1;
+}
+
+.hero p {
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+/* Container */
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+/* Search-room */
+
+.search-room {
+    width: 800px;
+    height: 60px;
+    background-color: #002B49;
+    margin:-30px auto 60px;
+    padding: 10px 50px 20px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.search-room label {
+    font-size: 12px;
+    color: white;
+}
+
+.search-room .date-in-out {
+    float: left;
+}
+
+.search-room .guest,
+.search-room .room-type,
+.search-room .button-search-room {
+    float: left;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.search-room .date-in-out input {
+    width: 200px;
+}
+
+.search-room select {
+    width: 150px;
+}
+
+.search-room .button-search-room input{
+    width: 150px;
+    background-color: #CFA96E;
+    text-align: center;
+    border: 0;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -10px;
+    border-radius: 10px;
+}
+
+/* Rooms And Facilities */
+
+.main h2 {
+    color: #002B49;
+    margin-bottom: 20px;
+}
+
+/* Rooms and Suites */
+
+.main {
+    margin-bottom: 50px;
+}
+
+.main .rooms-suite h2,
+.main .lounges h2 {
+    margin-left: 0;
+}
+
+.main .rooms-suite {
+    float: left;
+}
+
+.main .lounges {
+    float: right;
+}
+
+.main .reguler-rooms,
+.main .deluxe-rooms,
+.main .suites,
+.main .lounge-1,
+.main .lounge-2 {
+    width: 100px;
+    height: 130px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 5px;
+    box-shadow: 0 4px 3px rgba(0, 0, 0, 0.8);
+    float: left;
+}
+
+.main .deluxe-rooms,
+.main .suites {
+    margin-left: 30px;
+}
+
+.main .lounge-2 {
+    margin-left: 30px;
+}
+
+.rooms-suite h3,
+.lounges h3 {
+    font-size: 12px;
+    color: #002B49;
+    font-weight: bold;
+    margin-top: 5px;
+    text-align: center;
+}
+
+
+.rooms-suite .details,
+.lounges .details {
+    background-color: #CFA96E;
+    width: 50px;
+    height: 13px;
+    padding: 4px 5px 5px;
+    border-radius: 10px;
+    margin: 9px auto 5px;
+    text-align: center;
+    line-height: 13px;
+}
+
+.details a{
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    
+}
+
+.details a:hover {
+    color: #002B49;
+}
+
+
+/* Facility */
+
+
+
+
+.clear {
+    clear: both;
+}
