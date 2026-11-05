@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(to bottom right,#170a51, #4f0b5d );
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.container {
+    width: 80%;
+    margin: 48px auto;
+    padding: 20px;
+    background-color: #471761;
+    border-radius: 24px;
+
+}
+
+nav {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.3fr 0.3fr;
+    justify-content: space-around;
+    padding: 8px;
+    gap: 5px;
+    margin: 0 auto;
+    align-items: center;
+}
+
+nav h2 {
+    color: #170a51;
+    justify-self: start;
+}
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8em;
+}
+
+nav .signin {
+    justify-self: end;
+}
+
+nav ul li a:hover {
+    text-decoration: underline #170a51;
+}
+
+nav a.signin:hover {
+    color: #170a51;
+}
+
+nav .search {
+    width: 25px;
+    height: 25px;
+    background-color: #9731b7;
+    border-radius: 50%;
+    position: relative;
+    justify-self: end;
+}
+
+nav .search .circle {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    transform: translate(5px,5px);
+    border: 1px solid rgb(220, 193, 220);
+}
+
+nav .search .long {
+    height: 1px;
+    width: 7px;
+    background-color: rgb(220, 193, 220);
+    transform: rotate(45deg) translateX(13px) translateY(-5px);
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    width: 90%;
+    margin: 16px auto;
+    align-items: center;
+}
+
+.hero .text h3 {
+    font-size: 2em;
+    color: white;
+}
+
+.hero .text p{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: white;
+}
+
+.hero .text button {
+    padding: 4px 40px;
+    border-radius: 20px;
+    border: 0;
+    color: white;
+}
+
+.hero .text .details {
+    background-color: #9731b7;
+}
+
+.hero .text .demo {
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid #9731b7;
+}
+
+.hero .image {
+    justify-self: center;
+}
+
+.hero .image img {
+    transform: scale(0.8);
+}
